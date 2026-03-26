@@ -3,7 +3,7 @@ import random
 import os
 import time
 
-# --- Constants ---
+# Constants
 SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 600
 SCREEN_TITLE = "Simple Arcade Game"
@@ -12,7 +12,7 @@ ENEMY_SPEED = 2
 COIN_COUNT = 10
 ENEMY_COUNT = 5
 MAX_LEVEL = 5
-ENEMY_DELAY = 3  # seconds before enemies can hit
+ENEMY_DELAY = 3
 
 # Asset paths
 ASSETS_DIR = "assets"
@@ -57,7 +57,7 @@ class MyGame(arcade.Window):
 
         # Level start time for enemy delay
         self.level_start_time = 0
-        self.countdown_started = False  # Track if countdown has begun
+        self.countdown_started = False
 
         # Start first level
         self.setup_level()

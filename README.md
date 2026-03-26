@@ -6,7 +6,7 @@ In this game, the player controls a character that must collect coins while avoi
 
 The purpose of writing this software was to combine game mechanics with real-time user input handling, timed events, and dynamic sprite management. It is a personal project intended to explore the capabilities of the Python Arcade library and gain hands-on experience with game loops and state management.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.youtube.com/watch?v=hT2L8diu-PQ)
 
 # Development Environment
 
